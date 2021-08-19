@@ -53,10 +53,10 @@ class App extends React.Component
    
     const { jokes, index } = this.state;
     const joke = jokes[index];
-    const tweetURL = `https://twitter.com/intent/tweet?text=${joke.setup}${joke.punchline} - ${joke.type}`;
+    const tweetURL = `https://twitter.com/intent/tweet?text=${joke.setup} ${joke.punchline} - ${joke.type}`;
 
     const facebookURL =
-      "https://www.facebook.com/sharer/sharer.php?u=";
+      "https://www.facebook.com/sharer/sharer.php?u=https://try-not-to-laugh-challenge.netlify.app/";
 
     return (
      
