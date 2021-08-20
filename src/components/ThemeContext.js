@@ -14,7 +14,6 @@ const getInitialTheme = () => {
         }
     }
 
-    //return 'dark' for dark theme as the default,
     return 'light';
 };
 

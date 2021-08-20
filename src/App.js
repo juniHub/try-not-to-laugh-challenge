@@ -64,7 +64,7 @@ class App extends React.Component
         
       <header className="flex flex-col items-center justify-center p-8">
            <img className="shadow-lg rounded-full inline-block w-40 h-40 m-8" src={`https://picsum.photos/600?grayscale&random=${index}`} alt="logo" />
-        <h1 className="font-bold capitalize text-gray-500 dark:text-gray-400 text-center text-lg pt-4">Try Not to Laugh Challenge</h1>
+        <h1 className="font-bold capitalize text-gray-500 dark:text-gray-400 text-center text-lg pt-4">Try-Not-to-Laugh Challenge</h1>
         </header>
 
          <main class="flex-grow">
